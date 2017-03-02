@@ -72,8 +72,13 @@ nav ul li {
 }
 
 .webvr-page figcaption {
-  position:absolute;
-  bottom:0;
+  display: inline-block;
+  width: auto !important;
+  margin: 0 !important;
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  text-align: center;
 }
 
 .webvr-page canvas {
